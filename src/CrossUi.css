@@ -1,0 +1,30 @@
+.MainDiv{
+    width: 100vw;
+    height: 100vh;background-color:black;
+}
+.Div{
+    border: unset;
+     height: 51px;
+     width: 100%;
+     display: flex;
+}
+.box{
+    border: unset;
+    width:  96px;
+     height: 100%;
+     font-size: 30px;
+     margin: 10px;
+     font-weight: bold;
+     color: white;
+}
+.starImg{
+    height: 40px;
+    width:40px ;
+}
+.mainImg{
+     height: 50px;
+    width:50px ;
+    position: absolute;
+    top: 47.5%;
+    left: 47.5%;
+}

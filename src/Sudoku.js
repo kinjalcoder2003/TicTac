@@ -83,10 +83,3 @@ const Sudoku = () => {
 };
 
 export default Sudoku;
-
-// /{winner && (
-//   <>
-//     {winner === 'draw' ? <h3>It's a Draw!</h3> : <h3>Player {winner} Wins!</h3>}
-//     <h3>Game Over!</h3>
-//   </>
-// )}

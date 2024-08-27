@@ -1,0 +1,18 @@
+.BoxDiv{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.Span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.starDiv{
+   text-align: end;
+}
+
+.tri-main{
+    margin-top: 20px;
+}

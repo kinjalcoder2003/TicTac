@@ -135,3 +135,54 @@ const TicTac = () => {
 };
 
 export default TicTac;
+
+// /* Container for the overall layout */
+// .innerDiv {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     min-height: 100vh;
+//     background-color: #1b1b1b;
+// }
+
+// /* Container for each row of stars */
+// .boxDiv {
+//     display: flex;
+//     justify-content: center;
+//     margin: 10px 0;
+// }
+
+// /* Style for each individual box containing stars */
+// .box {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: #2c2c2c;
+//     margin: 5px;
+//     padding: 10px;
+//     border-radius: 8px;
+//     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+// }
+
+// /* Style for the stars */
+// .span {
+//     font-size: 24px;
+//     color: #f5a623;
+//     font-family: 'Courier New', Courier, monospace;
+//     margin: 0 2px;
+// }
+
+// /* Optional: Add a transition effect on hover */
+// .box:hover .span {
+//     color: #ffd700;
+//     transform: scale(1.1);
+//     transition: transform 0.2s ease, color 0.2s ease;
+// }
+
+// /* Additional styling for the StarDiv */
+// .StarDiv {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// } */

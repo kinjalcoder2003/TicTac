@@ -1,0 +1,25 @@
+
+.innerDiv{
+    justify-content: space-between;
+    display: flex;
+    align-items: space-between;
+    width: 100vw;
+   min-height:  100vh;
+    background-color: #1b1b1b;
+
+}
+.boxDiv{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.StarDiv{
+   text-align: end;
+}
