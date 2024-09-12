@@ -68,3 +68,113 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+.RoundDivMain {
+    min-height: calc(100vh - 60px);
+    width: calc(100vw - 60px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.RoundDivCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RoundDivSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Round {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Round:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.8);
+}
+
+#one {
+    background: radial-gradient(circle, yellow, orange);
+}
+
+#two {
+    background: radial-gradient(circle, green, limegreen);
+}
+
+#three {
+    background: radial-gradient(circle, deepskyblue, dodgerblue);
+}
+
+#four {
+    background: radial-gradient(circle, deeppink, hotpink);
+}
+
+#five {
+    background: radial-gradient(circle, slateblue, mediumslateblue);
+}
+
+
+
+
+
+
+
+
+
+
+.lineOne {
+  width: 0;
+  position: absolute;
+  top: 18%;
+  border-top: 254px solid rgb(125, 124, 124);
+  border-right: 350px solid transparent;
+}
+.lineFour{
+  width: 0;
+  position: absolute;
+  bottom: 1%;
+  top: 59%;
+  border-top: 260px solid transparent;
+  border-right: 258px solid rgb(125, 124, 124);
+  right:40%;
+}
+.lineThree{
+  width: 0;
+  position: absolute;
+  top:60%;
+  bottom: 1%;
+  border-bottom: 254px solid rgb(125, 124, 124);
+  border-right: 350px solid transparent;
+}
+
+
+<div id="container">
+          <div className="lineFour"></div>
+        </div>

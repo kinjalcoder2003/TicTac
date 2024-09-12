@@ -1,0 +1,105 @@
+.semicircles-container{
+ width: 100vw;
+  height: 100vh;
+  background-color:#16325B ;
+}
+  
+  .sub-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* border-bottom:  1px solid black; */
+    border: unset;
+
+  }
+.box-1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* border-right:  1px solid black; */
+    border: unset;
+
+    justify-content: space-between;
+}
+.box-2{
+    height: 100%;
+    width: 50%;
+    /* border-right: 2px solid black; */
+    border: unset;
+
+    display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+}
+.minibox{
+    /* border: 1px solid black;     */
+    border: unset;
+  height:100px;
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f7e3ae;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 20px;
+}
+.input{
+  border: unset;
+font-size: 18px;
+border-radius: 50%;
+padding: 30px;
+}
+
+ .semicircle-1{
+    width: 200px;
+  height: 100%;
+border: unset;
+/* border: 1px solid black; */
+  border-radius:  200px 0px 0px 200px;
+  background-color:#227B94;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+ .semicircle-2{
+    width: 200px;
+  height: 100%;
+  /* border: 1px solid black; */
+border: unset;
+  border-radius:  0px 200px 200px 0px;
+  background-color:#227B94 ;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+  .semicircle-3{
+ width: 100%;
+height: 330px;
+/* border: 1px solid black; */
+border: unset;
+border-radius:  330px 330px 0px 0px;
+margin-top: auto;
+  background-color:#78B7D0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+ .semicircle-4{
+    width: 100%;
+height: 330px;
+/* border: 1px solid black; */  
+border: unset;
+border-radius:  0px 0px 330px 330px;
+background-color:#78B7D0;
+justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+
+ .num{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }

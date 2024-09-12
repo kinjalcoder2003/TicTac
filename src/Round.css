@@ -1,0 +1,50 @@
+.RoundDivMain{
+   min-height: calc(100vh - 60px);
+    width: calc(100vw - 60px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+}
+.RoundDivCenter{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.RoundDivSpaceBetween{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-direction: row;
+}
+.Round{
+height: 160px;
+width: 160px;
+align-items: center;
+justify-content: center;
+display: flex;
+border: 3px solid black;
+box-shadow: 0px 0px 5px 0px #484747;
+border-radius: 50%;
+font-size: 25px;
+font-weight: bold;
+
+}
+
+#one{
+    background-color: yellow;
+}
+#two{
+    background-color:green;
+}
+#three{
+    background-color: deepskyblue;
+}
+#four{
+    background-color: deeppink;
+}
+#five{
+    background-color: slateblue;
+}
