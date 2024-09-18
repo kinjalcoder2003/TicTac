@@ -16,9 +16,9 @@ import Rhombus from './Rhombus';
 function App() {
 	return (
 		<div>
-			{/* <Fibona fiboNumber={16} />
-			<Sudoku></Sudoku>
-			<TicTac /> */}
+			<Fibona fiboNumber={16} />
+			{/* <Sudoku></Sudoku> */}
+			{/* <TicTac /> */}
 			{/* <StarsUi /> */}
 			{/* <Triangle /> */}
 			{/* <NumberUi /> */}
@@ -26,7 +26,7 @@ function App() {
 			{/* <CrossUi /> */}
 			{/* <Round /> */}
 			{/* <Semicircle /> */}
-			<Rhombus />
+			{/* <Rhombus /> */}
 			{/* <Routes>
 				<Route path='/' element={<LoginPage />} />
 				<Route path='/dash' element={<Dash />} />

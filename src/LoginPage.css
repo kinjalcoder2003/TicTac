@@ -1,47 +1,50 @@
-.main {
+.Logmain {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ccc;
+    background-color: #D8EFD3;
 }
 
-.name {
+.namelog {
     font-size: 25px;
     margin-bottom: 20px;
+    color: white;
 }
 
-.div {
-    width: 25%;
+.divLog {
+    width: 20%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #95D2B3;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(21, 20, 20, 0.1);
 }
 
-input {
+.inputLog {
     margin-bottom: 15px;
     padding: 15px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #F5EDED;
     border-radius: 5px;
 }
 
-button {
-    padding: 10px 40px;
+.buttonLog {
+    padding: 10px 0px;
     margin: 0%;
-    background-color: #0877ee;
+    background-color: #55AD9B;
     font-size: 20px;
+    width: 100%;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
+.buttonLog:hover {
     background-color: #024d9c;
 }

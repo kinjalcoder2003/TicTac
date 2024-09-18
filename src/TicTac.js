@@ -79,10 +79,10 @@ const TicTac = () => {
 		setWinner();
 	}
 	return (
-		<div className='mainDiv'>
+		<div className='mainDivTicTac'>
 			<h2 className='header'>Tic Tac Toe</h2>
-			<div className='innerDiv'>
-				<div className='border'>
+			<div className='innerDivTicTac'>
+				<div className='Border'>
 					<div onClick={() => handleClick(1)} className='btndiv'>
 						{click[1]}
 					</div>
@@ -93,7 +93,7 @@ const TicTac = () => {
 						{click[3]}
 					</div>
 				</div>
-				<div className='border'>
+				<div className='Border'>
 					<div onClick={() => handleClick(4)} className='btndiv'>
 						{click[4]}
 					</div>
@@ -104,7 +104,7 @@ const TicTac = () => {
 						{click[6]}
 					</div>
 				</div>
-				<div className='border'>
+				<div className='Border'>
 					<div onClick={() => handleClick(7)} className='btndiv'>
 						{click[7]}
 					</div>
@@ -116,7 +116,7 @@ const TicTac = () => {
 					</div>
 				</div>
 				<div>
-					<button onClick={onRestart} className='restartBtn'>
+					<button onClick={onRestart} className='RestartBtn'>
 						Restart
 					</button>
 				</div>

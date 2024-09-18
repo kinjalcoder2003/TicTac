@@ -1,14 +1,14 @@
-.MainDiv{
+.MainDivCross{
     width: 100vw;
     height: 100vh;background-color:black;
 }
-.Div{
+.CrossDiv{
     border: unset;
      height: 51px;
      width: 100%;
      display: flex;
 }
-.box{
+.boxcross{
     border: unset;
     width:  96px;
      height: 100%;

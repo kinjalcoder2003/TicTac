@@ -43,18 +43,18 @@ const Sudoku = () => {
 	}
 
 	return (
-		<div className='maindiv'>
+		<div className='SudokuDivMain'>
 			<h2 className='header'>SUDOKU</h2>
-			<div className='Div'>
+			<div>
 				{initialBoard.map((item, row) => {
 					return (
-						<div className='innerdiv'>
+						<div className='SudukuDivInner'>
 							{item.map((ite, col) => (
 								<input
 									value={game[row][col]}
 									onChange={(e) => handleChange(e, row, col)}
 									type='text'
-									className='inputdiv'
+									className='InputDiv'
 									key={row + col}
 									maxLength={'1'}
 								/>
@@ -62,20 +62,6 @@ const Sudoku = () => {
 						</div>
 					);
 				})}
-				{/* {number.map((num, row) => (
-					<div className='innerdiv'>
-						{alfa.map((alf, col) => (
-							<input
-								value={game[row][col]}
-								onChange={(e) => handleChange(e, row, col)}
-								type='text'
-								className='inputdiv'
-								key={row + col}
-								maxLength={'1'}
-							/>
-						))}
-					</div>
-				))} */}
 			</div>
 			<p className='error'>{error}</p>
 		</div>

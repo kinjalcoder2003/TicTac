@@ -8,14 +8,14 @@ const LoginPage = () => {
 		navigate('/dash');
 	};
 	return (
-		<div className='main'>
-			<div className='div'>
-				<hi className='name'>Login Page</hi>
-				<input className='input' type='text' />
+		<div className='Logmain'>
+			<div className='divLog'>
+				<hi className='namelog'>Login Page</hi>
+				<input className='inputLog' type='text' />
 				<br />
-				<input className='input' type='password' />
+				<input className='inputLog' type='password' />
 				<br />
-				<button className='button' onClick={login}>
+				<button className='buttonLog' onClick={login}>
 					Login
 				</button>
 			</div>

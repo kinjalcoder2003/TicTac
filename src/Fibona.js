@@ -29,7 +29,7 @@ const Fibona = ({ fiboNumber }) => {
 				justifyContent: 'center',
 				alignItems: 'center',
 				display: 'flex',
-				background: 'black',
+				background: '#8C3061',
 			}}>
 			{fibo.map((res) => (
 				<div

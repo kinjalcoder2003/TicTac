@@ -18,22 +18,22 @@ const StarsUi = () => {
 	};
 
 	return (
-		<div className='innerDiv'>
-			<div className='boxDiv'>
+		<div className='innerDivStar'>
+			<div className='boxDivStar'>
 				<div>
 					{arrOne.map((item) => {
 						return <div>{renderStarDiv(item)}</div>;
 					})}
 				</div>
-				<div className='StarDiv'>
+				<div className='StarUiDiv'>
 					{arrOne.map((item) => {
 						return <div>{renderStarDiv(item)}</div>;
 					})}
 				</div>
 			</div>
 			<div>
-				<div className='boxDiv'>
-					<div className='StarDiv'>
+				<div className='DivStar'>
+					<div className='StarUiDiv'>
 						{arrTwo.map((item) => {
 							return <div>{renderStarDiv(item)}</div>;
 						})}
@@ -45,8 +45,8 @@ const StarsUi = () => {
 					</div>
 				</div>
 
-				<div className='boxDiv'>
-					<div className='StarDiv'>
+				<div className='DivStar'>
+					<div className='StarUiDiv'>
 						{arrOne.map((item) => {
 							return <div>{renderStarDiv(item)}</div>;
 						})}
@@ -59,13 +59,13 @@ const StarsUi = () => {
 				</div>
 			</div>
 
-			<div className='boxDiv'>
+			<div className='boxDivStar'>
 				<div>
 					{arrTwo.map((item) => {
 						return <div>{renderStarDiv(item)}</div>;
 					})}
 				</div>
-				<div className='StarDiv'>
+				<div className='StarUiDiv'>
 					{arrTwo.map((item) => {
 						return <div>{renderStarDiv(item)}</div>;
 					})}

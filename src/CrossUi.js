@@ -22,13 +22,13 @@ const CrossUi = () => {
 		[15, 0],
 	];
 	return (
-		<div className='MainDiv'>
+		<div className='MainDivCross'>
 			{allow.map((item) => {
 				return (
-					<div className='Div'>
+					<div className='CrossDiv'>
 						{[...Array(16).keys(16)].map((str) => {
 							return (
-								<div className='box'>
+								<div className='boxcross'>
 									{item.includes(str) ? (
 										<img className='starImg' src={image} />
 									) : (
